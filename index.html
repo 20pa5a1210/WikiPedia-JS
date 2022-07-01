@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WikiPedia</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <section class="w-full h-96 mt-24">
+
+       <div class="mx-auto w-52 ">
+        <img src="./wiki-logo.png" alt="" srcset="">
+       </div>
+    
+       <h1 class=" text-center text-4xl"> Search WikiPedia</h1>
+       
+       <div class="mx-auto text-center mt-10">
+           <form class="form" id="form">
+
+            <input id="input" type="text" class="rounded-sm p-1 px-6 outline-0 border border-sky-400" >
+            <button id="button" type="button" class="bg-indigo-500 p-1 rounded-sm px-3 ">Search</button>
+            
+           </form>
+
+       </div>
+
+       <div id="results" class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 font-sans gap-4 mt-9">
+
+        <!-- <div class=" m-2 hover:bg-black hover:opacity-80 rounded-sm 
+         bg-gray-300 shadow-md hover:text-white">
+            <a href="">
+
+                    <h1 class="text-indigo-700 text-4xl p-2">Surya</h1>
+                    <p class="p-4">sectetur adipisicing elit. Ea, quisquam consequuntur pariatur, doloremque expedita vitae nemo modi aliquid voluptatem voluptas vero, nam laboriosam fugit aut non magnam iure. Sint, consequuntur.</p>
+
+            </a>
+        </div>        -->
+
+       </div>
+
+       <div class="err">
+        
+       </div>
+
+    
+
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+</html>
